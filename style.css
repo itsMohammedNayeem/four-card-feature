@@ -40,6 +40,7 @@ html {
 
 body {
     margin: 0;
+    padding-block-end: 5rem;
 }
 
 h1,
@@ -56,4 +57,30 @@ h3 {
 
 .wrapper--narrow {
     max-width: 550px;
+}
+header {
+    text-align: center;
+    margin-block: 6rem;
+}
+
+.layout-grid {
+    --gap: 2rem;
+    display: flex;
+    gap: var(--gap);
+}
+
+.layout-grid>* {
+    flex: 1;
+}
+
+.col {
+    display: grid;
+    gap: var(--gap);
+    align-content: center;
+}
+
+.card {
+    padding: 2rem;
+    background: #cdc8c8;
+    border-radius: 0.5rem;
 }
