@@ -49,22 +49,6 @@ Users should be able to:
 - I learned how to use media queries to make a responsive website.
   
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 ## Author
 
 - Website - [Mohammed Nayeem](https://portfolio-2-0-itsmohammednayeem.vercel.app/)
